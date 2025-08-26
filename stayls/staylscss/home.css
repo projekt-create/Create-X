@@ -31,6 +31,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 25px 0px;
 }
 
 .header_list{
@@ -61,7 +62,7 @@ color: #424551;
 }
 
 .btn{
-    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    background-color: #F75E05;
     width: 207px;
     height: 52px;
     border-radius: 6px;
@@ -75,6 +76,12 @@ color: #424551;
 
     color: #FFFFFF;
 
+}
+
+.btn:hover{
+    background-color: inherit;
+    color: #F75E05;
+    border: 1px solid #F75E05;
 }
 
 .btn_img{
@@ -133,6 +140,31 @@ color: #1E212C;
     gap: 15px;
 }
 
+.navbar_button1{
+
+width: 141px;
+height: 52px;
+
+background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+border-radius: 4px;
+border: none;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 52px;
+
+color: #FFFFFF;
+
+}
+
+.navbar_button1:hover{
+    background: inherit;
+    border: 1px solid #F75E05;
+    color: #F75E05;
+}
+
 .navbar_button2{
 
 width: 201px;
@@ -152,21 +184,10 @@ color: #FFFFFF;
 
 }
 
-.navbar_button1{
-background-color: inherit;
-
-width: 148px;
-height: 52px;
-
-border-radius: 4px;
-border: 1px solid #FF3F3A;
-
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 52px;
-
+.navbar_button2:hover{
+    background: inherit;
+    border: 1px solid #F75E05;
+    color: #F75E05;
 }
 
 .left_navbar_img{
@@ -175,6 +196,7 @@ line-height: 52px;
 }
 
 .info{
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -288,6 +310,12 @@ color: #424551;
     color: #FFFFFF;
 }
 
+.left_button:hover{
+    color: #F75E05;
+    background: #fff;
+    border: 1px solid #F75E05;
+}
+
 .produkt{
     width: 1200px;
     margin: auto;
@@ -347,6 +375,12 @@ font-weight: 700;
 font-size: 16px;
 line-height: 52px;
 
+}
+
+.title_button:hover{
+    color: #fff;
+    background-color: #F75E05;
+    border: 1px solid #fff;
 }
 
 .main{
@@ -559,7 +593,7 @@ color: #1E212C;
     gap: 10px;
 }
 
-.tabs_icon{
+.tabs_icon1{
     width: 307px;
     height: 46px;
     display: flex;
@@ -569,7 +603,37 @@ color: #1E212C;
     border: 2px solid #fff;
 }
 
-.star_icon{
+.tabs_icon2{
+    width: 307px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #fff;
+}
+
+.tabs_icon3{
+    width: 307px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #fff;
+}
+
+.tabs_icon4{
+    width: 307px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid #fff;
+}
+
+.icon{
     width: 20px;
     height: 20px;
 }
@@ -586,43 +650,31 @@ color: #9A9CA5;
 
 }
 
-.icon_like{
-    width: 20px;
-    height: 20px;
-}
-
-.icon_books{
-    width: 20px;
-    height: 20px;
-}
-
-.icon_coments{
-    width: 20px;
-    height: 20px;
-}
-
-.tabs_icon:hover{
+.tabs_icon1:hover{
+    color: #F75E05;
     border-radius: 5px;
     border: 2px solid #F75E05;
+    fill: #F75E05;
 }
 
-.icon_text:hover{
+.tabs_icon2:hover{
     color: #F75E05;
-}
-
-.star_icon:hover{
+    border-radius: 5px;
+    border: 2px solid #F75E05;
     fill: #F75E05;
 }
 
-.icon_like:hover{
+.tabs_icon3:hover{
+    color: #F75E05;
+    border-radius: 5px;
+    border: 2px solid #F75E05;
     fill: #F75E05;
 }
 
-.icon_books:hover{
-    fill: #F75E05;
-}
-
-.icon_coments:hover{
+.tabs_icon4:hover{
+    color: #F75E05;
+    border-radius: 5px;
+    border: 2px solid #F75E05;
     fill: #F75E05;
 }
 
@@ -966,7 +1018,6 @@ color: #424551;
 }
 
 .bgraundcolar{
-    width: 100%;
     border: 1px solid #fff;
     background: rgba(244, 245, 246, 1);
     margin-top: -230px;
@@ -1261,14 +1312,12 @@ border: 1px solid #F75E05;
 }
 
 .Subscribe_wraper{
-    width: 100%;
     background-color: #f3a6be;
     margin-top: 150px;
     border: 1px solid #f3a6be;
 }
 
 .Subscribe{
-    width: 1960px;
     margin: auto;
     margin-top: 80px;
     align-items: center;
@@ -1359,7 +1408,6 @@ border: 1px solid #F75E05;
 }
 
 .Footer_wraper{
-    width: 100%;
     height: 344px;
     border: 1px solid rgba(30, 33, 44, 1);
     background-color: rgba(30, 33, 44, 1);
@@ -1651,7 +1699,6 @@ color: #FFFFFF;
 }
 
 .end_footer{
-    width: 100%;
     height: 50px;
     border: 1px solid #2e313b;
     background-color: #2e313b;
